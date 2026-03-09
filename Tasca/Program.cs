@@ -15,6 +15,12 @@ class Program
             p.Animals.Add(new Tauto(p.Mida, Sexe.Mascle));
             p.Animals.Add(new Tauto(p.Mida, Sexe.Femella));
 
+            p.Animals.Add(new Pop(p.Mida));
+            p.Animals.Add(new Pop(p.Mida));
+
+            p.Animals.Add(new Tortuga(p.Mida, Sexe.Mascle));
+            p.Animals.Add(new Tortuga(p.Mida, Sexe.Femella));
+            p.Animals.Add(new Tortuga(p.Mida, Sexe.Mascle));
 
             for (int i = 0; i < 100; i++)
                 p.SimularRonda();
